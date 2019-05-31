@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/search"-->
+        <!--android:icon="@drawable/ic_search_black_24dp"-->
+        <!--android:title="filter"-->
+        <!--app:showAsAction="ifRoom"/>-->
+
+    <item
+        android:id="@+id/filter"
+        android:title="sort by"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/rent"
+                android:title="rent"
+                app:showAsAction="never">
+                <menu>
+                    <item
+                        android:id="@+id/min"
+                        android:title="min to high"
+                        app:showAsAction="never"/>
+                    <item
+                    android:id="@+id/high"
+                    android:title="high to min"
+                    app:showAsAction="never"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/bhk"
+                android:title="bhk"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/radius"
+                android:title="radius"
+                app:showAsAction="never"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/share"
+        android:title="share"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logout"
+        android:title="logout"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/about"
+        android:title="Aabout us"
+        app:showAsAction="never"/>
+</menu>
