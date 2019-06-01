@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/myimageD"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/download"/>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="32sp">
+
+        <TableLayout
+            android:id="@+id/tablelayout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingEnd="2dip" >
+
+            <TableRow>
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/tv1"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Furnish Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/tv2"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Furnish Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/tv3"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="House Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/tv4"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Furnish Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/tv5"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Accomodation allowed"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/tv6"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Furnish Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/tv7"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="BHK Count"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/tv8"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Furnish Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/tv9"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Acccomodation Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/tv10"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Furnish Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/tv11"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Latitude"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/tv12"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Furnish Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/tv13"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Longitude"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/tv14"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Furnish Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/tv15"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Radius"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    android:id="@+id/tv16"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Furnish Type"
+                    android:textColor="#000"
+                    android:textStyle="bold"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
